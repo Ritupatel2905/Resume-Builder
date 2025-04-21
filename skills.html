@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <div class="container">
+        <div class="form-container">
+
+            <h2>Skills</h2>
+
+        <label for="skills">Technical Skills (comma-separated):</label> 
+        <input type="text" id="skills" placeholder="e.g. HTML, CSS, JavaScript">
+
+        <label for="skills">Soft Skills (comma-separated):</label> 
+        <input type="text" id="skills" placeholder="e.g. Time Management, Team Work, Debugging">
+
+        <h2>Project</h2>
+
+        <label for="p-name">Project Name:</label> 
+        <input type="text" id="p-name" placeholder="Enter your project name">
+
+        <label for="duration">Duration</label> 
+        <input type="text" id="duration" placeholder="Duration">
+
+        <label class="p-purpose">Somthing About Your Project </label>
+        <textarea class="p-purpose" type="text" rows="4"></textarea>
+
+        <label class="p-id">Github ID For Your Project:</label>
+        <input type="text" id="p-id" placeholder="Enter your github Id">
+        
+
+         <button onclick="generateResume()">Generate Resume</button>
+        <button onclick="downloadPDF()">Download as PDF</button>
+
+        </div>
+    </div>
+</body>
+</html>
